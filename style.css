@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+ES+Deco+Guides&display=swap');
+
+.logo
+{
+    width:10rem;
+    margin-left:10px;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    background-color:rgb(20,25,32);
+    align-items:center;
+    
+}
+.cart{
+    width:40px;
+    height:30px;
+    border-radius:10px;
+    vertical-align: top;
+    color:white;
+}
+.profile{
+    display:flex;
+    
+}
+.pic{
+    width:40px;
+    color:white;
+}
+.profile{
+    color:white;
+    font-family: "Imperial Script", serif;
+    font-size:24px;
+}
+
+.information{
+    display:flex;
+    align-items:center;
+    margin-right:10px;
+    margin-top:0px;
+}
+.information div{
+
+    margin:0px 15px;
+    
+}
+.banner{
+    width:100%;
+    height:70%;
+}
+
+.slider{
+    position:relative;
+}
+
+.left{
+    position:absolute;
+    top: 40%;
+    color:black;
+    height:40px;
+}
+
+.right{
+    position:absolute;
+    right:0px;
+    top:40%;
+    color:black;
+    height:40px;
+    border-radius:50%;
+}
+.left:hover{
+    background-color:grey;
+    border-radius:50%;
+}
+.left:active{
+    background-color:rgb(88, 87, 87);
+}
+.right:active{
+    background-color:rgb(88, 87, 87);
+   
+}
+
+.ind
+{
+    width:10px;
+    height:10px;
+    border:1px solid brown;
+    border-radius:50%;
+    margin:1.5px;
+}
+.indicate{
+    display:flex;
+    
+    position:absolute;
+    bottom:0px;
+    left:47%;
+}
+.main{
+    background-color:brown;
+}
+
+.banner{
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.imp{
+    display:flex;
+   
+}
+.search{
+    width:600px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.searchlogo{
+    color:blacks;
+    height:27px;
+    padding:0 3px;
+    background-color:rgb(255, 174, 0);
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    row-gap:10px;
+    margin:10px;
+}
+
+.product{
+    width:325px;
+    border:1px rgb(255, 174, 0) solid;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+   
+    
+}
+
+.product button{
+    padding:5px 20px;
+    border-radius:30px;
+    margin-top:5px;
+    border:none;
+    margin-bottom:10px;
+}
+
+.product img{
+    width:300px;
+    height:250px;
+    border-radius:10px;
+}
+
+.buy{
+    background-color:yellow;
+}
+.des{
+    color:grey;
+}
+.price{
+    font-weight:bold;
+}
+
+.buy:hover{
+    background-color:yellow;
+    opacity:0.7;
+}
